@@ -20,6 +20,8 @@
 		D028EB3D20A1B53600E34687 /* MomentTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EB3B20A1B53600E34687 /* MomentTableCell.swift */; };
 		D028EB3E20A1B53600E34687 /* MomentTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D028EB3C20A1B53600E34687 /* MomentTableCell.xib */; };
 		D028EB4020A1B76F00E34687 /* ImageCoinArrondi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EB3F20A1B76F00E34687 /* ImageCoinArrondi.swift */; };
+		D028EB4320A1BBE400E34687 /* MomentCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EB4120A1BBE400E34687 /* MomentCollectionCell.swift */; };
+		D028EB4420A1BBE400E34687 /* MomentCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D028EB4220A1BBE400E34687 /* MomentCollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		D028EB3B20A1B53600E34687 /* MomentTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentTableCell.swift; sourceTree = "<group>"; };
 		D028EB3C20A1B53600E34687 /* MomentTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentTableCell.xib; sourceTree = "<group>"; };
 		D028EB3F20A1B76F00E34687 /* ImageCoinArrondi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCoinArrondi.swift; sourceTree = "<group>"; };
+		D028EB4120A1BBE400E34687 /* MomentCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentCollectionCell.swift; sourceTree = "<group>"; };
+		D028EB4220A1BBE400E34687 /* MomentCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentCollectionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				D028EB3B20A1B53600E34687 /* MomentTableCell.swift */,
 				D028EB3C20A1B53600E34687 /* MomentTableCell.xib */,
 				D028EB3F20A1B76F00E34687 /* ImageCoinArrondi.swift */,
+				D028EB4120A1BBE400E34687 /* MomentCollectionCell.swift */,
+				D028EB4220A1BBE400E34687 /* MomentCollectionCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D028EB3420A1A50100E34687 /* TableController.xib in Resources */,
+				D028EB4420A1BBE400E34687 /* MomentCollectionCell.xib in Resources */,
 				D028EB3E20A1B53600E34687 /* MomentTableCell.xib in Resources */,
 				D028EB2320A1A1ED00E34687 /* LaunchScreen.storyboard in Resources */,
 				D028EB3020A1A3DD00E34687 /* CollectionController.xib in Resources */,
@@ -192,6 +199,7 @@
 				D028EB4020A1B76F00E34687 /* ImageCoinArrondi.swift in Sources */,
 				D028EB2F20A1A3DD00E34687 /* CollectionController.swift in Sources */,
 				D028EB3A20A1B33C00E34687 /* BaseDePhotos.swift in Sources */,
+				D028EB4320A1BBE400E34687 /* MomentCollectionCell.swift in Sources */,
 				D028EB3820A1B25200E34687 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
