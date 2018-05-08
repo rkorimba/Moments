@@ -15,6 +15,8 @@
 		D028EB3320A1A50100E34687 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EB3120A1A50100E34687 /* TableController.swift */; };
 		D028EB3420A1A50100E34687 /* TableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D028EB3220A1A50100E34687 /* TableController.xib */; };
 		D028EB3620A1A5F600E34687 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EB3520A1A5F600E34687 /* TabBarController.swift */; };
+		D028EB3820A1B25200E34687 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EB3720A1B25200E34687 /* Photo.swift */; };
+		D028EB3A20A1B33C00E34687 /* BaseDePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EB3920A1B33C00E34687 /* BaseDePhotos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		D028EB3120A1A50100E34687 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 		D028EB3220A1A50100E34687 /* TableController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableController.xib; sourceTree = "<group>"; };
 		D028EB3520A1A5F600E34687 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		D028EB3720A1B25200E34687 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		D028EB3920A1B33C00E34687 /* BaseDePhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDePhotos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		D028EB2C20A1A39500E34687 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D028EB3720A1B25200E34687 /* Photo.swift */,
+				D028EB3920A1B33C00E34687 /* BaseDePhotos.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +179,8 @@
 				D028EB3620A1A5F600E34687 /* TabBarController.swift in Sources */,
 				D028EB1920A1A1EB00E34687 /* AppDelegate.swift in Sources */,
 				D028EB2F20A1A3DD00E34687 /* CollectionController.swift in Sources */,
+				D028EB3A20A1B33C00E34687 /* BaseDePhotos.swift in Sources */,
+				D028EB3820A1B25200E34687 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
