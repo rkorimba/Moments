@@ -31,36 +31,38 @@
                     <rect key="frame" x="0.0" y="0.0" width="387" height="639"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u8c-az-Hvi" customClass="ImageCoinArrondi" customModule="Moments" customModuleProvider="target">
-                            <rect key="frame" x="20" y="30" width="347" height="128"/>
+                            <rect key="frame" x="20" y="75" width="347" height="128"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="347" id="Bjs-7V-ogL"/>
                                 <constraint firstAttribute="height" constant="128" id="bwx-rM-GNg"/>
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QvC-ng-9hB">
-                            <rect key="frame" x="20" y="178" width="347" height="50"/>
+                            <rect key="frame" x="20" y="223" width="347" height="50"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="2Ez-sW-xMA"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <color key="textColor" red="0.23137254900000001" green="0.34901960780000002" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wO4-w8-Rno">
-                            <rect key="frame" x="20" y="236" width="347" height="100"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wO4-w8-Rno">
+                            <rect key="frame" x="20" y="281" width="347" height="100"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="100" id="QF0-I0-TcV"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3NQ-U8-Llk">
-                            <rect key="frame" x="20" y="376" width="347" height="50"/>
+                            <rect key="frame" x="20" y="421" width="347" height="50"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="TPU-cq-99u"/>
                             </constraints>
-                            <state key="normal" title="Button"/>
+                            <state key="normal" title="Retour">
+                                <color key="titleColor" red="0.96470588239999999" green="0.20000000000000001" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
                             <connections>
                                 <action selector="retourAction:" destination="-1" eventType="touchUpInside" id="QBO-iw-qye"/>
                             </connections>
@@ -74,7 +76,7 @@
                         <constraint firstItem="3NQ-U8-Llk" firstAttribute="top" secondItem="wO4-w8-Rno" secondAttribute="bottom" constant="40" id="V4r-tD-hvN"/>
                         <constraint firstAttribute="trailing" secondItem="3NQ-U8-Llk" secondAttribute="trailing" constant="20" id="aTo-KL-ivZ"/>
                         <constraint firstAttribute="trailing" secondItem="u8c-az-Hvi" secondAttribute="trailing" constant="20" id="eLK-DM-db9"/>
-                        <constraint firstItem="u8c-az-Hvi" firstAttribute="top" secondItem="3sd-zH-gDN" secondAttribute="top" constant="30" id="jQi-7J-ift"/>
+                        <constraint firstItem="u8c-az-Hvi" firstAttribute="top" secondItem="3sd-zH-gDN" secondAttribute="top" constant="75" id="jQi-7J-ift"/>
                         <constraint firstAttribute="trailing" secondItem="QvC-ng-9hB" secondAttribute="trailing" constant="20" id="jhs-5I-Hgu"/>
                         <constraint firstItem="wO4-w8-Rno" firstAttribute="top" secondItem="QvC-ng-9hB" secondAttribute="bottom" constant="8" id="nTw-Dh-6uk"/>
                         <constraint firstItem="QvC-ng-9hB" firstAttribute="leading" secondItem="3sd-zH-gDN" secondAttribute="leading" constant="20" id="sMp-1W-6Vz"/>

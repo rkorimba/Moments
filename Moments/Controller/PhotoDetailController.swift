@@ -23,19 +23,25 @@ class PhotoDetailController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if navigationController != nil {
+            retourBouton.isHidden = true
+        } else {
+            //pas utile
+            retourBouton.isHidden = false
+        }
+        
         if photo != nil {
             nomLabel.text = "De: " + photo!.nom
             descLabel.text = photo!.desc
             photoImage.image = photo!.image
-            let taille = Ratio.obtenir.taille(view.frame.width - 20, image: photo!.image)
+            let taille = Ratio.obtenir.taille(view.frame.width - 50, image: photo!.image)
             largeurContrainte.constant = taille.width
             hauteurContrainte.constant = taille.height
-        
         }
-       
     }
 
     @IBAction func retourAction(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
     }
-    
 }
